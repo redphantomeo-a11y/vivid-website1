@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivid - Feel the World Around You</title>
+<link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#6366f1',
+              secondary: '#8b5cf6',
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body class="bg-gray-50">
+    <custom-navbar></custom-navbar>
+    
+    <main class="container mx-auto px-4 py-8">
+        <!-- Hero Section -->
+        <section class="flex flex-col md:flex-row items-center gap-12 py-12">
+            <div class="md:w-1/2">
+                <h1 class="text-5xl font-bold text-gray-900 mb-6">Feel Your Surroundings <span class="text-primary">Confidently</span></h1>
+                <p class="text-xl text-gray-600 mb-8">Vivid is an innovative wearable device that vibrates when objects are within 10 meters, giving blind individuals greater spatial awareness and independence.</p>
+<div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#order" class="bg-primary hover:bg-primary-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300 text-center">Order Now - 80 TND</a>
+                    <a href="#how-it-works" class="border-2 border-primary text-primary font-bold py-3 px-6 rounded-lg transition duration-300 hover:bg-primary-50 text-center">How It Works</a>
+                </div>
+            </div>
+            <div class="md:w-1/2">
+                <img src="http://static.photos/technology/640x360/42" alt="VibDID Device" class="rounded-xl shadow-xl w-full">
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="py-12 bg-white rounded-xl shadow-sm px-6 my-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Why Choose <span class="text-primary">Vivid</span></h2>
+<div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <div class="text-primary mb-4">
+                        <i data-feather="alert-circle" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Proximity Awareness</h3>
+                    <p class="text-gray-600">Vibrates when objects are within 10 meters, giving you time to react safely.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <div class="text-primary mb-4">
+                        <i data-feather="clock" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Long Battery Life</h3>
+                    <p class="text-gray-600">Up to 72 hours of continuous use on a single charge.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <div class="text-primary mb-4">
+                        <i data-feather="droplet" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Water Resistant</h3>
+                    <p class="text-gray-600">IP67 rating means it can handle rain and accidental splashes.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section id="how-it-works" class="py-12 my-8">
+            <h2 class="text-3xl font-bold text-center mb-12">How <span class="text-primary">Vivid</span> Works</h2>
+<div class="flex flex-col md:flex-row gap-8 items-center">
+                <div class="md:w-1/2 order-2 md:order-1">
+                    <ol class="space-y-8">
+                        <li class="flex items-start gap-4">
+                            <div class="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">1</div>
+                            <div>
+                                <h3 class="font-bold text-lg">Wear the Device</h3>
+                                <p class="text-gray-600">Clip VibDID to your clothing or wear it on your wrist.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <div class="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">2</div>
+                            <div>
+                                <h3 class="font-bold text-lg">Detection</h3>
+                                <p class="text-gray-600">The device continuously scans for objects within 10 meters.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <div class="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">3</div>
+                            <div>
+                                <h3 class="font-bold text-lg">Vibration Alert</h3>
+                                <p class="text-gray-600">When an object is detected, VibDID vibrates to alert you.</p>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+                <div class="md:w-1/2 order-1 md:order-2">
+                    <img src="http://static.photos/technology/640x360/10" alt="How VibDID works" class="rounded-xl shadow-lg w-full">
+                </div>
+            </div>
+        </section>
+
+        <!-- Order Section -->
+        <section id="order" class="py-12 bg-gradient-to-r from-primary to-secondary rounded-xl my-8">
+            <div class="text-center text-white max-w-3xl mx-auto">
+                <h2 class="text-3xl font-bold mb-4">Get Your <span class="text-yellow-200">VibDID</span> Today</h2>
+                <p class="text-xl mb-8">Empower yourself or a loved one with greater independence and safety.</p>
+                <div class="bg-white rounded-lg shadow-xl p-8 max-w-md mx-auto text-gray-800">
+                <h3 class="text-2xl font-bold mb-4">Vivid Device</h3>
+<p class="text-4xl font-bold text-primary mb-6">80 TND</p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center gap-2"><i data-feather="check" class="text-green-500"></i> 10m detection range</li>
+                        <li class="flex items-center gap-2"><i data-feather="check" class="text-green-500"></i> Adjustable vibration intensity</li>
+                        <li class="flex items-center gap-2"><i data-feather="check" class="text-green-500"></i> Lightweight and comfortable</li>
+                        <li class="flex items-center gap-2"><i data-feather="check" class="text-green-500"></i> Includes charging cable</li>
+                    </ul>
+                    <button class="bg-primary hover:bg-primary-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300 w-full">Order Now</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Creators Section -->
+        <section class="py-12 my-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Meet the <span class="text-primary">Creators</span></h2>
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="bg-white p-6 rounded-xl shadow-sm flex items-start gap-4">
+                    <img src="https://huggingface.co/spaces/ysf12345/vibdid-feel-the-world-around-you/resolve/main/images/IMG_20251125_183719_589.webp" alt="Youssef Bedhiaf" class="w-20 h-20 rounded-full">
+<div>
+                        <h3 class="font-bold text-xl">Youssef Bedhiaf</h3>
+                        <p class="text-gray-600 mb-2">Co-creator</p>
+                        <p class="text-gray-700">Student at Laouina Lycee 1 with a passion for assistive technology.</p>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm flex items-start gap-4">
+                    <img src="https://huggingface.co/spaces/ysf12345/vibdid-feel-the-world-around-you/resolve/main/images/Screenshot_20251212_225413.png" alt="Yassine Abdelkafi" class="w-20 h-20 rounded-full">
+<div>
+                        <h3 class="font-bold text-xl">Yassine Abdelkafi</h3>
+                        <p class="text-gray-600 mb-2">Co-creator</p>
+                        <p class="text-gray-700">Student at Laouina Lycee 1 dedicated to creating accessible solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+<script src="https://huggingface.co/deepsite/deepsite-badge.js"></script>
+</body>
+</html>
